@@ -16,24 +16,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Demo](#-demo)
-- [Technology Stack](#-technology-stack)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Model Performance](#-model-performance)
-- [Code Quality Assessment](#-code-quality-assessment)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [Roadmap](#-roadmap)
-- [License](#-license)
-- [Contact](#-contact)
-
----
-
 ## 🎯 Overview
 
 This project is part of my **30 Days of Mini Projects** challenge (Day 2/30). It uses machine learning to classify song lyrics into five genres: **Rock, Pop, Hip-Hop, Country, and Electronic**.
@@ -101,13 +83,8 @@ Python 3.8 or higher
 pip package manager
 ```
 
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/abhigyaabs2/Music-Genre-Prediction.git
-cd Music-Genre-Prediction
-```
 
-### Step 2: Create Virtual Environment (Recommended)
+### Step 1: Create Virtual Environment (Recommended)
 ```bash
 # Windows
 python -m venv venv
@@ -118,12 +95,12 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### Step 3: Install Dependencies
+### Step 2: Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4: Download NLTK Data
+### Step 3: Download NLTK Data
 ```python
 python -c "import nltk; nltk.download('stopwords'); nltk.download('wordnet'); nltk.download('omw-1.4')"
 ```
@@ -268,27 +245,6 @@ music-genre-prediction/
 
 ---
 
-## 🤝 Contributing
-
-Contributions are **welcome and encouraged**! This is an open learning project.
-
-### How to Contribute
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. **Make your changes**
-4. **Commit with clear messages**
-   ```bash
-   git commit -m "Add: Feature description"
-   ```
-5. **Push to your branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-6. **Open a Pull Request**
 
 ### Contribution Ideas
 
@@ -336,23 +292,6 @@ Contributions are **welcome and encouraged**! This is an open learning project.
 
 ---
 
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-## 👤 Contact
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- Email: your.email@example.com
-
-**Project Link**: [https://github.com/yourusername/music-genre-prediction](https://github.com/yourusername/music-genre-prediction)
-
----
 
 ## 🙏 Acknowledgments
 
@@ -360,31 +299,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Streamlit community](https://streamlit.io/community)
 - [NLTK project](https://www.nltk.org/)
 - Inspiration from music information retrieval research
-- 30 Days of Code community
-
----
-
-## 📚 References & Resources
-
-1. **Music Information Retrieval**
-   - [ISMIR Conference Papers](https://ismir.net/)
-   - Tsaptsinos, A. (2017). Lyrics-based music genre classification
-
-2. **NLP Techniques**
-   - Manning, C. D., & Schütze, H. (1999). Foundations of statistical NLP
-   - [TF-IDF Tutorial](https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction)
-
-3. **Random Forest Algorithm**
-   - Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5-32
-
----
-
-<div align="center">
-
-### ⭐ If you find this project helpful, please consider giving it a star!
-
-**Made with ❤️ and ☕ | Part of 30 Days of Mini Projects**
-
-[⬆ Back to Top](#-music-genre-prediction-from-lyrics)
-
-</div>
